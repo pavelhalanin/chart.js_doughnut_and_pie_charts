@@ -13,13 +13,13 @@ const COUNT_ALL_CHILDREN = COUNT_CHILDREN_BEFORE_18 + COUNT_CHILDREN_AFTER_18;
 const IS_NO_CHILDREN = COUNT_ALL_CHILDREN == 0;
 
 const FIELDS = [
-  "Кол-во сыновей до 18 лет",
-  "Кол-во дочерей до 18 лет",
-  "Кол-во совершенолетних сыновей",
-  "Кол-во совершенолетних дочерей",
-  "Кол-во детей до 18 лет",
-  "Кол-во совершенолетних детей",
-  "Нет детей?",
+  `Кол-во сыновей до 18 лет (${COUNT_MAN_BEFORE_18})`,
+  `Кол-во дочерей до 18 лет (${COUNT_WOMAN_BEFORE_18})`,
+  `Кол-во совершенолетних сыновей (${COUNT_MAN_AFTER_18})`,
+  `Кол-во совершенолетних дочерей (${COUNT_WOMAN_AFTER_18})`,
+  `Кол-во детей до 18 лет (${COUNT_CHILDREN_BEFORE_18})`,
+  `Кол-во совершенолетних детей (${COUNT_CHILDREN_AFTER_18})`,
+  `Нет детей? (${IS_NO_CHILDREN ? "да" : "нет"})`,
 ];
 
 const DATA = [
