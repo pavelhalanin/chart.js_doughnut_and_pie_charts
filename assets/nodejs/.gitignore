@@ -1,0 +1,10 @@
+node_modules/*
+node_modules/chart.js/*
+node_modules/chart.js/dist/*
+
+!node_modules/chart.js
+!node_modules/chart.js/dist
+!node_modules/chart.js/dist/chart.umd.js
+!node_modules/chart.js/dist/chart.umd.js.map
+
+package-lock.json
