@@ -19,7 +19,7 @@ const FIELDS = [
   `Кол-во совершенолетних дочерей (${COUNT_WOMAN_AFTER_18})`,
   `Кол-во детей до 18 лет (${COUNT_CHILDREN_BEFORE_18})`,
   `Кол-во совершенолетних детей (${COUNT_CHILDREN_AFTER_18})`,
-  `Нет детей? (${IS_NO_CHILDREN ? "да" : "нет"})`,
+  `Нет детей? (${IS_NO_CHILDREN ? "Истина. Нет детей" : "Ложь. Дети есть"})`,
 ];
 
 const DATA = [
